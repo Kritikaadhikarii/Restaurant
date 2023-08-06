@@ -1,0 +1,85 @@
+/* Reset some default styles for the list and anchor tags */
+nav ul, nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgba(31, 29, 29, 0.7); /* Set the background to grey with 70% opacity */
+  padding: 10px 0; /* Add some padding at the top and bottom */
+  height: 80px;
+  position: fixed; /* Keep the navigation bar fixed */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left */
+  width: 100%; /* Set the width to 100% to span the full viewport width */
+  z-index: 1; /* Set a higher z-index to make the navigation bar appear on top */
+}
+
+nav ul {
+  display: flex; /* Display the list items in a row */
+  justify-content: center; /* Center the list items horizontally */
+}
+
+nav li {
+  padding: 30px 20px; /* Add padding to each list item */
+  margin-right: 10px; /* Add margin between the list items */
+}
+
+/* Style the anchor tags */
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Set the link text color */
+}
+
+/* Change the link color when hovering */
+li:hover {
+  color: red; /* Change the link text color to red when hovering */
+}
+
+/* Style the logo image */
+nav img {
+  max-height: 10%;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding-top: 0; 
+  border-radius: 50%;
+}
+
+/* Updated style for the div containing the image */
+.one {
+  position: relative; /* Set the parent div to relative positioning */
+}
+
+.one img {
+  width: 100%;
+  margin-top: 0; /* Remove the default margin on the image */
+}
+
+
+
+/*------------------------------------------------*/
+
+.slideshow1 img{
+  width: 100%;
+}
+
+.slideshow1 {
+  display: flex;
+}
+
+/* Initially hide all slides except the active one */
+.slideshow1 > div:not(.active) {
+  display: none;
+}
+
+
+
+/*--------------------------------------------------*/
+.outstory{
+  text-align: center;
+  padding: 50px;
+}

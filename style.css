@@ -108,17 +108,17 @@ button{
 }
 
 .slide1 h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
   top: 40%;
   left: 20px;
   transform: translateY(-75%);
 }
 
 .slide1 p {
-  font-size: 16px;
+  /* font-size: 16px; */
   top: 50%;
   left: 20px;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
   width: 50%;
 }
 
@@ -160,17 +160,18 @@ button{
 }
 
 .slide2 h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
   top: 40%;
   left: 20px;
   transform: translateY(-75%);
+  width:30%;
 }
 
 .slide2 p {
-  font-size: 16px;
+  /* font-size: 16px; */
   top: 50%;
   left: 20px;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
   width: 50%;
 }
 
@@ -198,17 +199,17 @@ button{
 }
 
 .slide3 h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
   top: 40%;
   right: 20px; /* Move h1 to the right side */
   transform: translateY(-75%);
 }
 
 .slide3 p {
-  font-size: 16px;
+  /* font-size: 16px; */
   top: 50%;
   right: 20px; /* Adjust 'margin-right' to 'right' */
-  transform: translateY(-30%);
+  transform: translateY(-60%);
   /* width: 50%; */
 }
 
@@ -224,7 +225,30 @@ button{
 }
 
 .writing {
-
   margin-right: 20px;
 }
 
+h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 20px;
+}
+
+#story {
+  position: relative;
+  display: inline-block;
+  color: red;
+}
+
+#story::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}

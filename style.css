@@ -77,9 +77,154 @@ nav img {
 }
 
 
+/*-------------------------*/
+button{
+  background-color: red;
+  width: 320px;
+  height:60px;
+  color: white;
+  padding:8px;
+  font-size:25px;
+  font-weight: 300;
+  border-radius: 20px;
+}
+
+
+
+
+/*-------------------------*/
+
+
+
+/*-------------------------*/
+.slide1 {
+  position: relative;
+}
+
+.slide1 h1,.slide1 p,.slide1 button {
+  position: absolute;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.slide1 h1 {
+  font-size: 30px;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-75%);
+}
+
+.slide1 p {
+  font-size: 16px;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.slide1 button {
+  top: 65%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.slide1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.writing1{
+  width: 50%;
+  margin-left: 40px;
+}
+
+
+
 
 /*--------------------------------------------------*/
 .outstory{
   text-align: center;
   padding: 50px;
 }
+
+
+/*-------------------------*/
+.slide2 {
+  position: relative;
+}
+
+.slide2 h1,.slide2 p,.slide2 button {
+  position: absolute;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.slide2 h1 {
+  font-size: 30px;
+  top: 40%;
+  left: 20px;
+  transform: translateY(-75%);
+}
+
+.slide2 p {
+  font-size: 16px;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.slide2 button {
+  top: 60%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.slide2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.slide3 {
+  position: relative;
+}
+
+.slide3 h1, .slide3 p, .slide3 button {
+  position: absolute;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.slide3 h1 {
+  font-size: 30px;
+  top: 40%;
+  right: 20px; /* Move h1 to the right side */
+  transform: translateY(-75%);
+}
+
+.slide3 p {
+  font-size: 16px;
+  top: 50%;
+  right: 20px; /* Adjust 'margin-right' to 'right' */
+  transform: translateY(-30%);
+  /* width: 50%; */
+}
+
+.slide3 button {
+  top: 60%;
+  right: 20px; /* Move both buttons to the right side */
+  transform: translateY(-50%);
+}
+
+.slide3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.writing {
+
+  margin-right: 20px;
+}
+

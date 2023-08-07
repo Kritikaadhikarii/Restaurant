@@ -261,7 +261,7 @@ p{
 
 .three {
   display: flex;
-  gap: 20px; /* Add gap between the two divs */
+  gap: 40px; /* Add gap between the two divs */
 }
 
 .featuredfood,
@@ -271,7 +271,22 @@ p{
 }
 
 .featuredfood {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  padding-left: 40px;
+  padding.featuredfood h1 {
+    position: relative;
+  }
+  
+  .featuredfood h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+  }
+  -right: 40px;
 }
 
 .menu table {
@@ -333,7 +348,7 @@ p{
 }
 
 .featuredfood .image-container img {
-  width: 500px; /* Fix the width of the images */
+  width: 300px; /* Fix the width of the images */
   height: auto; /* Fix the height of the images */
   flex-shrink: 0;
   cursor: pointer;
@@ -346,4 +361,20 @@ p{
   to {
     transform: translateX(-100%);
   }
+}
+
+
+
+.featuredfood h1 {
+  position: relative;
+}
+
+.featuredfood h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background-color: red;
 }

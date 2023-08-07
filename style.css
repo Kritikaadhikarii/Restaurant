@@ -270,23 +270,20 @@ p{
   padding: 10px;
 }
 
-.featuredfood {
-  /* margin-top: 40px; */
-  padding-left: 40px;
-  padding.featuredfood h1 {
-    position: relative;
-  }
-  
-  .featuredfood h1::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background-color: red;
-  }
-  -right: 40px;
+.featuredfood h1::before,
+.featuredfood h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.featuredfood h1::before {
+  content: '';
+  bottom: -9px;
 }
 
 .menu table {
@@ -312,7 +309,7 @@ p{
   left: 0;
   bottom: -6px;
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: red;
 }
 

@@ -80,13 +80,13 @@ nav img {
 /*-------------------------*/
 button{
   background-color: red;
-  width: 320px;
-  height:60px;
+  width: 250px;
+  height:50px;
   color: white;
   padding:8px;
-  font-size:25px;
+  font-size:15px;
   font-weight: 300;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 
@@ -111,7 +111,9 @@ button{
   /* font-size: 30px; */
   top: 40%;
   left: 20px;
-  transform: translateY(-75%);
+  transform: translateY(-85%);
+  -webkit-text-stroke: 0.5px black;
+  width:40%;
 }
 
 .slide1 p {
@@ -267,7 +269,8 @@ p{
 .featuredfood,
 .menu {
   flex: 1;
-  padding: 10px;
+  /* padding: 30px; */
+  margin:60px;
 }
 
 .featuredfood h1::before,
@@ -333,22 +336,30 @@ p{
   flex-direction: column; /* Change flex direction to column */
   align-items: center; /* Center the images horizontally */
   overflow: hidden;
+  width: 60%;
 }
 
 .featuredfood .image-container {
   display: flex;
-  transition: transform 1s linear;
+  transition: transform 5s linear;
 }
 
 .featuredfood:hover .image-container {
-  animation: moveImages 10s linear infinite;
+  animation: moveImages 40s linear infinite;
 }
 
 .featuredfood .image-container img {
-  width: 300px; /* Fix the width of the images */
+  width: 350px; /* Fix the width of the images */
   height: auto; /* Fix the height of the images */
   flex-shrink: 0;
   cursor: pointer;
+  /* border-radius: 5px;
+  border-top-right-radius: 5px; */
+  padding-right: 20px;
+}
+
+.featuredfood img{
+  border-radius: 5px;
 }
 
 @keyframes moveImages {
@@ -374,4 +385,8 @@ p{
   width: 100%;
   height: 3px;
   background-color: red;
+}
+
+.new1{
+  width: 100%;
 }

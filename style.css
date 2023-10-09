@@ -390,3 +390,55 @@ p{
 .new1{
   width: 100%;
 }
+
+.prepare {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('preapre.webp');
+  background-attachment: fixed;
+  color: white;
+}
+
+
+.prepare p {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+
+}
+
+.clients {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('preapre.webp');
+  background-attachment: fixed;
+  color: white;
+}
+.star-rating {
+  font-size: 24px;
+}
+
+.fas {
+  color: gold;
+}
+
+.far {
+  color: grey;
+}
+
+.clients {
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.people {
+  margin: 20px;
+}
+
+

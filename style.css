@@ -411,10 +411,13 @@ p{
 .clients {
   padding: 30px;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('preapre.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clients.jpeg');
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
+
 .star-rating {
   font-size: 24px;
 }
